@@ -7,7 +7,7 @@ import { ApolloClient,
 } from "@apollo/client";
 
 const httpLink = createHttpLink({
-	uri: "http://localhost:5000",
+	uri: "https://agile-earth-37840.herokuapp.com/",
 });
 
 const authLink = new ApolloLink((operation, forward) => {
